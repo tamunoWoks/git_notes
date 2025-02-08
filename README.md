@@ -96,3 +96,12 @@ To stage all changes (new, modified, and deleted files) in the entire working di
 ```bash
 git add .
 ```
+#### Stage All Changes (Including Untracked Files):
+To stage all changes, including untracked files (new files that Git hasn't been tracking yet):
+```bash
+git add -A
+```
+or
+```bash
+git add --all
+```

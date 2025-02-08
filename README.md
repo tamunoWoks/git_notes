@@ -10,7 +10,7 @@ cd my_project
 Below is a list of commonly used Git commands on Windows, along with explanations and examples:
 ## 1. git init
 The git init is a command in the Git version control system used to initialize a new Git repository in the current directory. When you run this command, Git creates a hidden folder named .git in the current directory. This folder contains all the metadata and objects for the Git repository.  
-##### Syntax:
+#### Syntax:
 ```bash
 cd my_project
 git init
@@ -30,7 +30,7 @@ git init --bare
 
 ## 2. git clone
 The git clone command is used to create a copy of a remote Git repository on your local machine. This is one of the most common commands when working with Git, as it allows you to download an entire repository, including its history and all branches.
-##### Syntax
+#### Syntax
 ```bash
 git clone <repository-url> [destination-directory]
 ```

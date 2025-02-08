@@ -86,3 +86,8 @@ To stage a single file for the next commit:
 ```bash
 git add filename.txt
 ```
+#### Stage All Changes in a Directory:
+To stage all changes in a specific directory:
+```bash
+git add dirname/
+```

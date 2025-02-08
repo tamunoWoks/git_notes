@@ -1,7 +1,7 @@
 # git_notes
 Git is a distributed version control system that allows developers to track changes in their code, collaborate with others, and manage projects efficiently.  
 
-##### How to Use
+#### How to Use
 - Open your terminal or command-line tool.
 - Navigate to the directory you want to initialize as a Git repository.
 ```bash
@@ -18,7 +18,7 @@ git init
 ```
 After running git init, Git will create a .git folder in the my_project directory. This means my_project is now a Git repository, and you can start using Git to track changes to your files.  
 
-##### Additional Options
+#### Additional Options
 - Initializing a Git repository in the specified directory.
 ```bash
 git init <directory>
@@ -28,5 +28,5 @@ git init <directory>
 git init --bare
 ```
 
-##### Notes
+#### Notes
 - If you run git init in a directory that already contains a .git folder, Git will reinitialize the repository without affecting the existing commit history.

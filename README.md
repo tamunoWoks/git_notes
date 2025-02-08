@@ -73,3 +73,6 @@ When you run git clone, Git performs the following steps:
 - Downloading a project from GitHub, GitLab, Bitbucket, or any other Git hosting service.
 - Starting work on an existing project.
 - Creating a local copy of a repository for development or testing.
+
+## 3. git add
+The git add command is used to stage changes in your working directory for the next commit. It tells Git which files or changes you want to include in the next snapshot (commit). This is a crucial step in the Git workflow, as it allows you to selectively choose what gets committed.

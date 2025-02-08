@@ -91,3 +91,8 @@ To stage all changes in a specific directory:
 ```bash
 git add dirname/
 ```
+#### Stage All Changes in the Working Directory:
+To stage all changes (new, modified, and deleted files) in the entire working directory:
+```bash
+git add .
+```

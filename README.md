@@ -115,3 +115,6 @@ To stage all files of a specific type (e.g., all .txt files):
 ```bash
 git add *.txt
 ```
+#### What Happens When You Run git add?
+- Git takes a snapshot of the changes you've staged and prepares them for the next commit.
+- The changes are added to the staging area (also called the index), which is a temporary area where Git stores changes before they are committed.

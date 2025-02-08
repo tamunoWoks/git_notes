@@ -110,3 +110,8 @@ To stage only modified or deleted files, but not untracked files:
 ```bash
 git add -u
 ```
+#### Stage Specific File Types:
+To stage all files of a specific type (e.g., all .txt files):
+```bash
+git add *.txt
+```

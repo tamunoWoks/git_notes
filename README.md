@@ -53,3 +53,8 @@ To clone a specific branch of a repository, use the -b flag followed by the bran
 ```bash
 git clone -b branch-name https://github.com/user/repo.git
 ```
+#### Clone with SSH:
+If you have SSH access to the repository, you can use the SSH URL instead of HTTPS:
+```bash
+git clone git@github.com:user/repo.git
+```

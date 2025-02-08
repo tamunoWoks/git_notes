@@ -48,3 +48,8 @@ If you want to clone the repository into a specific directory, provide the direc
 git clone https://github.com/user/repo.git my-project
 ```
 This will clone the repository into a directory named my-project.
+#### Clone a Specific Branch:
+To clone a specific branch of a repository, use the -b flag followed by the branch name:
+```bash
+git clone -b branch-name https://github.com/user/repo.git
+```

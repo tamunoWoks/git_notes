@@ -23,3 +23,10 @@ After running git init, Git will create a .git folder in the my_project director
 ```bash
 git init <directory>
 ``` 
+- Creating a bare repository, typically used for remote repositories, which does not have a working directory.
+```bash
+git init --bare
+```
+
+### Notes
+- If you run git init in a directory that already contains a .git folder, Git will reinitialize the repository without affecting the existing commit history.

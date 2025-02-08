@@ -81,3 +81,8 @@ The git add command is used to stage changes in your working directory for the n
 git add<file-or-directory>
 ```
 - **file-or-directory:** The file or directory you want to stage. You can specify individual files, directories, or use wildcards.
+#### Stage a Specific File:
+To stage a single file for the next commit:
+```bash
+git add filename.txt
+```

@@ -64,3 +64,8 @@ If you only need the latest version of the repository and not the entire commit 
 git clone --depth 1 https://github.com/user/repo.git
 ```
 This will clone only the most recent commit, saving time and disk space.
+#### What Happens When You Clone?
+When you run git clone, Git performs the following steps:
+- Downloads the entire repository (files, branches, and commit history) from the remote server.
+- Creates a .git directory in the local repository to store metadata and version control information.
+- Checks out the default branch (usually main or master) into your working directory.

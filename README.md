@@ -105,3 +105,8 @@ or
 ```bash
 git add --all
 ```
+#### Stage Only Modified or Deleted Files (Exclude Untracked Files):
+To stage only modified or deleted files, but not untracked files:
+```bash
+git add -u
+```

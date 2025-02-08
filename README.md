@@ -58,3 +58,9 @@ If you have SSH access to the repository, you can use the SSH URL instead of HTT
 ```bash
 git clone git@github.com:user/repo.git
 ```
+#### Shallow Clone (Limited History):
+If you only need the latest version of the repository and not the entire commit history, you can perform a shallow clone using the --depth flag:
+```bash
+git clone --depth 1 https://github.com/user/repo.git
+```
+This will clone only the most recent commit, saving time and disk space.

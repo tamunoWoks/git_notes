@@ -36,8 +36,7 @@ git clone <repository-url> [destination-directory]
 ```
 - **repository-url:** The URL of the remote repository you want to clone.
 - **destination-directory:** (Optional) The name of the directory where the repository will be cloned. If not provided, Git will use the repository's name as the directory name.
-#### Examples
-- Clone a repository.
+####  Clone a repository.
 To clone a repository, simply provide the repository's URL:
 ```bash
 git clone https://github.com/user/repo.git

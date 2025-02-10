@@ -247,3 +247,9 @@ If your branch is behind, you can pull the latest changes:
 ```bash
 git pull origin <branch-name>
 ```
+#### Merge Conflicts:
+If you’re in the middle of a merge and have conflicts, git status will list the conflicting files. Resolve the conflicts, stage the files, and complete the merge:
+```bash
+git add <resolved-file>
+git commit
+```

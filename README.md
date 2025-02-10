@@ -136,3 +136,4 @@ If you want to commit all tracked files (modified or deleted) without explicitly
 ```bash
 git commit -a -m "Update existing files"
 ```
+- **Note:** This does not include untracked files (new files)

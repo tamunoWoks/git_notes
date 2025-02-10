@@ -187,3 +187,6 @@ Fixes #123
 - Keep commits small and focused. Each commit should represent a single logical change.
 - Use meaningful commit messages that explain why the change was made, not just what was changed.
 - If you forget to include a file in your commit, use git commit --amend to fix it.
+
+## 5. git status
+The git status command is one of the most frequently used Git commands. It provides a summary of the current state of your working directory and staging area. This includes information about which files are staged, unstaged, untracked, or have conflicts. It’s a great way to see what changes Git is tracking and what actions you might need to take next.

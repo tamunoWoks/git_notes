@@ -233,3 +233,8 @@ If you see files under "Changes not staged for commit," you need to stage them f
 ```bash
 git add <file>
 ```
+#### Untracked Files:
+If you see files under "Untracked files," you can start tracking them by staging them:
+```bash
+git add <file>
+```

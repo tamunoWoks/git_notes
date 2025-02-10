@@ -282,7 +282,7 @@ git push <remote-name> <branch-name>
 - **remote-name:** The name of the remote repository (usually origin by default).
 - **branch-name:** The name of the branch you want to push.
 ### Common Usage Examples
-#### Push to the Default Remote and Branch
+#### Push to the Default Remote and Branch:
 If you're working on the main branch and want to push to the default remote (origin):
 ```bash
 git push origin main

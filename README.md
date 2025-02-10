@@ -253,3 +253,18 @@ If you’re in the middle of a merge and have conflicts, git status will list th
 git add <resolved-file>
 git commit
 ```
+#### Short Status:
+For a more concise summary, you can use the -s or --short flag:
+```bash
+git status -s
+```
+Example output:
+```
+ M README.md
+A  script.js
+M  index.html
+?? styles.css
+```
+- **M:** Modified file (staged or unstaged).
+- **A:** Added file (staged).
+- **??:** Untracked file.

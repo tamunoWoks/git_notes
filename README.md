@@ -339,3 +339,12 @@ git pull origin main
 ```bash
 git push origin main
 ```
+#### Local Branch Not Tracking Remote Branch
+If you see:
+```
+fatal: The current branch <branch-name> has no upstream branch.
+```
+Set the upstream branch:
+```bash
+git push -u origin <branch-name>
+```

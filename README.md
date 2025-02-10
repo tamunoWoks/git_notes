@@ -190,3 +190,7 @@ Fixes #123
 
 ## 5. git status
 The git status command is one of the most frequently used Git commands. It provides a summary of the current state of your working directory and staging area. This includes information about which files are staged, unstaged, untracked, or have conflicts. It’s a great way to see what changes Git is tracking and what actions you might need to take next.
+#### Syntax:
+```bash
+git status
+```

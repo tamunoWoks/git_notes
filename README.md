@@ -272,3 +272,6 @@ M  index.html
 - Run git status frequently to stay aware of the state of your working directory.
 - Use git status before committing to ensure you’re including all the changes you intend to.
 - If you’re unsure what to do next, git status often provides helpful hints in its output.
+
+## git push
+The git push command is used to upload your local repository's commits to a remote repository. This is how you share your changes with others or back them up on a remote server (e.g., GitHub, GitLab, Bitbucket). After committing your changes locally, you use `git push` to synchronize your work with the remote repository.

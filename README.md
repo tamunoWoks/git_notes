@@ -268,3 +268,7 @@ M  index.html
 - **M:** Modified file (staged or unstaged).
 - **A:** Added file (staged).
 - **??:** Untracked file.
+#### Tips
+- Run git status frequently to stay aware of the state of your working directory.
+- Use git status before committing to ensure you’re including all the changes you intend to.
+- If you’re unsure what to do next, git status often provides helpful hints in its output.

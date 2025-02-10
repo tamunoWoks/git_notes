@@ -339,7 +339,7 @@ git pull origin main
 ```bash
 git push origin main
 ```
-#### Local Branch Not Tracking Remote Branch
+#### Local Branch Not Tracking Remote Branch:
 If you see:
 ```
 fatal: The current branch <branch-name> has no upstream branch.
@@ -348,13 +348,13 @@ Set the upstream branch:
 ```bash
 git push -u origin <branch-name>
 ```
-#### Force Push After Rewriting History
+#### Force Push After Rewriting History:
 If you've rewritten history (e.g., with git rebase or git commit --amend), you may need to force push:
 ```bash
 git push --force origin <branch-name>
 ```
 Caution: Only force push if you're sure it won't overwrite others' work.
-#### Tips
+#### Tips:
 - Always check `git status` and `git log` before pushing to ensure you're pushing the correct changes.
 - Use `git pull` before pushing to avoid conflicts with the remote branch.
 - Avoid force pushing (`--force`) unless absolutely necessary, as it can overwrite others' work.

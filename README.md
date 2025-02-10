@@ -153,3 +153,11 @@ If you want to write a detailed commit message, omit the -m flag:
 git commit
 ```
 This will open your default text editor (e.g., Vim, Nano, or VS Code) for you to write a multi-line message.
+#### What Happens When You Commit?
+- Git takes the changes you've staged (with git add) and creates a new commit.
+- The commit is saved to your local repository with a unique SHA-1 hash (e.g., d3b07384d113edec49eaa6238ad5ff00).
+- The commit includes:
+  - A snapshot of the changes.
+  - Your commit message.
+  - Your name and email (from your Git configuration).
+  - A timestamp.

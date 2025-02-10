@@ -238,3 +238,12 @@ If you see files under "Untracked files," you can start tracking them by staging
 ```bash
 git add <file>
 ```
+#### Branch Status:
+If your branch is ahead of the remote, you can push your changes:
+```bash
+git push origin <branch-name>
+```
+If your branch is behind, you can pull the latest changes:
+```bash
+git pull origin <branch-name>
+```

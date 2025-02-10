@@ -131,3 +131,8 @@ After staging changes with git add, you can commit them with:
 ```bash
 git commit -m "Add new feature"
 ```
+#### Commit All Tracked Changes (Skip git add)
+If you want to commit all tracked files (modified or deleted) without explicitly running git add, use the -a flag:
+```bash
+git commit -a -m "Update existing files"
+```

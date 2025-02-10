@@ -126,18 +126,18 @@ The git commit command is used to save the changes you've staged using `git add`
 git commit -m "Your commit message"
 ```
 - **-m "Your commit message":** Adds a commit message directly in the command. If you omit the -m flag, Git will open your default text editor for you to write a commit message.
-#### Commit Staged Changes
+#### Commit Staged Changes:
 After staging changes with git add, you can commit them with:
 ```bash
 git commit -m "Add new feature"
 ```
-#### Commit All Tracked Changes (Skip git add)
+#### Commit All Tracked Changes (Skip git add):
 If you want to commit all tracked files (modified or deleted) without explicitly running git add, use the -a flag:
 ```bash
 git commit -a -m "Update existing files"
 ```
 - **Note:** This does not include untracked files (new files)
-#### Amend the Previous Commit
+#### Amend the Previous Commit:
 If you want to modify the most recent commit (e.g., to add forgotten changes or fix the commit message), use:
 ```bash
 git commit --amend
@@ -147,7 +147,7 @@ This opens your default text editor to update the commit message. To add changes
 git add forgotten-file.txt
 git commit --amend
 ```
-#### Commit with a Multi-line Message
+#### Commit with a Multi-line Message:
 If you want to write a detailed commit message, omit the -m flag:
 ```bash
 git commit

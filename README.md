@@ -293,8 +293,17 @@ If you're already on the branch you want to push, you can use:
 git push
 ```
 This assumes the local branch is tracking a remote branch. If not, you may need to set the upstream branch (see below).
-#### Push All Branches
+#### Push All Branches:
 To push all local branches to the remote:
 ```bash
 git push --all origin
+```
+#### Push Tags:
+To push tags (e.g., v1.0) to the remote:
+```bash
+git push origin <tag-name>
+```
+Or push all tags:
+```bash
+git push --tags origin
 ```

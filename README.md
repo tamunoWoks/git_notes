@@ -323,3 +323,19 @@ The `-u` flag sets the upstream branch, so future pushes can simply use git push
 - Git uploads your local commits to the remote repository.
 - The remote repository updates its branch to include your changes.
 - If the remote branch has new commits that you don't have locally, Git will reject the push (to avoid overwriting work). You'll need to pull and merge those changes first.
+### Common Scenarios and Solutions
+#### Rejected Push (Remote Has New Changes):
+If the remote branch has changes that you don't have locally, you'll see an error like:
+```
+! [rejected] main -> main (non-fast-forward)
+```
+**To fix this:**
+- Pull the latest changes:
+```bash
+git pull origin main
+```
+- Resolve any merge conflicts.
+- Push again:
+```bash
+git push origin main
+```

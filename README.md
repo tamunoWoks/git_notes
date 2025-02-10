@@ -118,3 +118,6 @@ git add *.txt
 #### What Happens When You Run git add?
 - Git takes a snapshot of the changes you've staged and prepares them for the next commit.
 - The changes are added to the staging area (also called the index), which is a temporary area where Git stores changes before they are committed.
+
+## 4. git commit
+The git commit command is used to save the changes you've staged using `git` add to your local repository. Each commit creates a snapshot of your project at that point in time, along with a message describing the changes. This is a key part of the Git workflow, as it allows you to track the history of your project.

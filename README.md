@@ -183,7 +183,7 @@ Fixes #123
 - **Subject:** A concise summary of the changes (50 characters or less).
 - **Body:** A detailed description of the changes (optional but recommended for larger commits).
 - **Footer:** Reference issues or pull requests (e.g., Fixes #123).
-#### Tips
+#### Tips:
 - Keep commits small and focused. Each commit should represent a single logical change.
 - Use meaningful commit messages that explain why the change was made, not just what was changed.
 - If you forget to include a file in your commit, use git commit --amend to fix it.

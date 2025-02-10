@@ -299,7 +299,7 @@ To push all local branches to the remote:
 git push --all origin
 ```
 #### Push Tags:
-To push tags (e.g., v1.0) to the remote:
+To push tags (e.g., `v1.0`) to the remote:
 ```bash
 git push origin <tag-name>
 ```
@@ -308,7 +308,7 @@ Or push all tags:
 git push --tags origin
 ```
 #### Force Push (Use with Caution)
-If you need to overwrite the remote branch with your local branch (e.g., after rewriting history with git rebase or git commit --amend), use:
+If you need to overwrite the remote branch with your local branch (e.g., after rewriting history with `git rebase` or `git commit --amend`), use:
 ```bash
 git push --force origin <branch-name>
 ```
@@ -318,4 +318,4 @@ If your local branch isn't tracking a remote branch yet, you can set the upstrea
 ```bash
 git push -u origin <branch-name>
 ```
-The -u flag sets the upstream branch, so future pushes can simply use git push.
+The `-u` flag sets the upstream branch, so future pushes can simply use git push.

@@ -307,15 +307,19 @@ Or push all tags:
 ```bash
 git push --tags origin
 ```
-#### Force Push (Use with Caution)
+#### Force Push (Use with Caution):
 If you need to overwrite the remote branch with your local branch (e.g., after rewriting history with `git rebase` or `git commit --amend`), use:
 ```bash
 git push --force origin <branch-name>
 ```
 - **Warning:** Force pushing can overwrite others' work, so use it carefully!
-#### Set Upstream Branch
+#### Set Upstream Branch:
 If your local branch isn't tracking a remote branch yet, you can set the upstream branch and push in one command:
 ```bash
 git push -u origin <branch-name>
 ```
 The `-u` flag sets the upstream branch, so future pushes can simply use git push.
+#### What Happens When You Push?
+- Git uploads your local commits to the remote repository.
+- The remote repository updates its branch to include your changes.
+- If the remote branch has new commits that you don't have locally, Git will reject the push (to avoid overwriting work). You'll need to pull and merge those changes first.

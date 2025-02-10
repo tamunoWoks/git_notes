@@ -223,3 +223,8 @@ Untracked files:
         styles.css
 ```
 ### Common Scenarios and What to Do
+#### Staged Changes:
+If you see files under "Changes to be committed," you can proceed to commit them:
+```bash
+git commit -m "Your commit message"
+```

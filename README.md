@@ -161,3 +161,25 @@ This will open your default text editor (e.g., Vim, Nano, or VS Code) for you to
   - Your commit message.
   - Your name and email (from your Git configuration).
   - A timestamp.
+#### Writing Good Commit Messages
+A good commit message clearly describes the changes made. Here’s a common format:
+```bash
+<type>: <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+**Example:**
+```
+feat: Add user authentication
+
+- Add login and registration functionality
+- Implement password hashing
+
+Fixes #123
+```
+- **Type:** Describes the kind of change (e.g., feat, fix, docs, style, refactor, test, chore).
+- **Subject:** A concise summary of the changes (50 characters or less).
+- **Body:** A detailed description of the changes (optional but recommended for larger commits).
+- **Footer:** Reference issues or pull requests (e.g., Fixes #123).

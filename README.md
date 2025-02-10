@@ -348,3 +348,9 @@ Set the upstream branch:
 ```bash
 git push -u origin <branch-name>
 ```
+#### Force Push After Rewriting History
+If you've rewritten history (e.g., with git rebase or git commit --amend), you may need to force push:
+```bash
+git push --force origin <branch-name>
+```
+Caution: Only force push if you're sure it won't overwrite others' work.

@@ -287,3 +287,8 @@ If you're working on the main branch and want to push to the default remote (ori
 ```bash
 git push origin main
 ```
+#### Push to the Current Branch:
+If you're already on the branch you want to push, you can use:
+```bash
+git push
+```

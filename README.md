@@ -313,3 +313,9 @@ If you need to overwrite the remote branch with your local branch (e.g., after r
 git push --force origin <branch-name>
 ```
 - **Warning:** Force pushing can overwrite others' work, so use it carefully!
+#### Set Upstream Branch
+If your local branch isn't tracking a remote branch yet, you can set the upstream branch and push in one command:
+```bash
+git push -u origin <branch-name>
+```
+The -u flag sets the upstream branch, so future pushes can simply use git push.

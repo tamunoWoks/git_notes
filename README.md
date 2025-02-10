@@ -292,3 +292,4 @@ If you're already on the branch you want to push, you can use:
 ```bash
 git push
 ```
+This assumes the local branch is tracking a remote branch. If not, you may need to set the upstream branch (see below).

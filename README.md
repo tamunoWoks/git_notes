@@ -228,3 +228,8 @@ If you see files under "Changes to be committed," you can proceed to commit them
 ```bash
 git commit -m "Your commit message"
 ```
+#### Unstaged Changes:
+If you see files under "Changes not staged for commit," you need to stage them first:
+```bash
+git add <file>
+```

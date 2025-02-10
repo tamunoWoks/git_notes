@@ -279,11 +279,11 @@ The git push command is used to upload your local repository's commits to a remo
 ```bash
 git push <remote-name> <branch-name>
 ```
-- **remote-name:** The name of the remote repository (usually origin by default).
+- **remote-name:** The name of the remote repository (usually `origin` by default).
 - **branch-name:** The name of the branch you want to push.
 ### Common Usage Examples
 #### Push to the Default Remote and Branch:
-If you're working on the main branch and want to push to the default remote (origin):
+If you're working on the `main` branch and want to push to the default remote (`origin`):
 ```bash
 git push origin main
 ```
@@ -349,7 +349,7 @@ Set the upstream branch:
 git push -u origin <branch-name>
 ```
 #### Force Push After Rewriting History:
-If you've rewritten history (e.g., with git rebase or git commit --amend), you may need to force push:
+If you've rewritten history (e.g., with `git rebase` or `git commit --amend`), you may need to force push:
 ```bash
 git push --force origin <branch-name>
 ```

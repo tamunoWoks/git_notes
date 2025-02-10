@@ -194,3 +194,11 @@ The git status command is one of the most frequently used Git commands. It provi
 ```bash
 git status
 ```
+#### What Does git status Show?
+When you run git status, Git provides the following information:
+- **Current Branch:** Tells you which branch you're currently on.
+- **Changes to be Committed (Staged Changes):** Lists files that have been staged (added to the index) using git add and are ready to be committed.
+- **Changes not staged for Commit (Unstaged Changes):** Lists files that have been modified but not yet staged for commit.
+- **Untracked Files:** Lists files that are in your working directory but not yet tracked by Git.
+- **Branch Status:** If your branch is ahead or behind the remote branch, Git will notify you.
+- **Merge or Rebase Status:** If you're in the middle of a merge or rebase, git status will show the current state and any conflicts that need to be resolved.

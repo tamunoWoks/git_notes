@@ -137,3 +137,13 @@ If you want to commit all tracked files (modified or deleted) without explicitly
 git commit -a -m "Update existing files"
 ```
 - **Note:** This does not include untracked files (new files)
+#### Amend the Previous Commit
+If you want to modify the most recent commit (e.g., to add forgotten changes or fix the commit message), use:
+```bash
+git commit --amend
+```
+This opens your default text editor to update the commit message. To add changes to the previous commit:
+```bash
+git add forgotten-file.txt
+git commit --amend
+```

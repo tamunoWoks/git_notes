@@ -147,3 +147,9 @@ This opens your default text editor to update the commit message. To add changes
 git add forgotten-file.txt
 git commit --amend
 ```
+#### Commit with a Multi-line Message
+If you want to write a detailed commit message, omit the -m flag:
+```bash
+git commit
+```
+This will open your default text editor (e.g., Vim, Nano, or VS Code) for you to write a multi-line message.

@@ -222,3 +222,4 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         styles.css
 ```
+### Common Scenarios and What to Do

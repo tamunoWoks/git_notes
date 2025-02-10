@@ -354,3 +354,7 @@ If you've rewritten history (e.g., with git rebase or git commit --amend), you m
 git push --force origin <branch-name>
 ```
 Caution: Only force push if you're sure it won't overwrite others' work.
+#### Tips
+- Always check `git status` and `git log` before pushing to ensure you're pushing the correct changes.
+- Use `git pull` before pushing to avoid conflicts with the remote branch.
+- Avoid force pushing (`--force`) unless absolutely necessary, as it can overwrite others' work.

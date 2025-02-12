@@ -1,4 +1,4 @@
-## 1. git init
+## git init
 The git init is a command in the Git version control system used to initialize a new Git repository in the current directory. When you run this command, Git creates a hidden folder named .git in the current directory. This folder contains all the metadata and objects for the Git repository.  
 #### Syntax:
 ```bash

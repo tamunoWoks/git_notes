@@ -79,3 +79,7 @@ git add <file>
 ```bash
 git rebase --continue
 ```
+#### Tips:
+- Always pull before starting work to ensure you’re working with the latest version of the code.
+- Use git pull --rebase to maintain a cleaner, linear history.
+- If you’re unsure about the state of your repository, run git status and git log to check for uncommitted changes or conflicts.

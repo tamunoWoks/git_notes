@@ -4,5 +4,5 @@ The git branch command is used to manage branches in a Git repository. Branches 
 ```bash
 git branch [options] [branch-name]
 ```
-**`[branch-name]`:** The name of the branch you want to create, delete, or rename.
+**`[branch-name]`:** The name of the branch you want to create, delete, or rename.  
 **`[options]`:** Additional flags to modify the behavior of the command.

@@ -4,8 +4,8 @@ The git push command is used to upload your local repository's commits to a remo
 ```bash
 git push <remote-name> <branch-name>
 ```
-- **remote-name:** The name of the remote repository (usually `origin` by default).
-- **branch-name:** The name of the branch you want to push.
+- **`<remote-name>`:** The name of the remote repository (usually `origin` by default).
+- **`<branch-name>`:** The name of the branch you want to push.
 ### Common Usage Examples
 #### Push to the Default Remote and Branch:
 If you're working on the `main` branch and want to push to the default remote (`origin`):

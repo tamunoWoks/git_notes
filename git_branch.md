@@ -17,3 +17,12 @@ The current branch will be highlighted with an asterisk (*).
 ```bash
 git branch -a
 ```
+#### Create a New Branch:
+- To create a new branch:
+```bash
+git branch <branch-name>
+```
+Example:
+```bash
+git branch feature-login
+```

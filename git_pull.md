@@ -6,8 +6,7 @@ git pull <remote-name> <branch-name>
 ```
 **`<remote-name>`:** The name of the remote repository (usually origin by default).  
 **`<branch-name>`:** The name of the branch you want to pull from.
-#### Common Usage Examples
----
+### Common Usage Examples
 #### Pull from the Default Remote and Branch:
 If you're working on the main branch and want to pull from the default remote (origin):
 ```bash
@@ -32,8 +31,7 @@ git pull -u origin <branch-name>
 #### What Happens When You Pull?
 - Fetch: Git downloads the latest changes from the remote repository.
 - Merge: Git integrates the remote changes into your local branch (unless you use `--rebase`).
-#### Common Scenarios and Solutions
----
+### Common Scenarios and Solutions
 #### Merge Conflicts:
 If the remote branch has changes that conflict with your local changes, Git will pause the merge and ask you to resolve the conflicts. You’ll see a message like:
 ```

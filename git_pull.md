@@ -23,3 +23,8 @@ If you want to avoid creating a merge commit and instead rebase your local chang
 ```bash
 git pull --rebase
 ```
+#### Set Upstream Branch:
+If your local branch isn't tracking a remote branch yet, you can set the upstream branch and pull in one command:
+```bash
+git pull -u origin <branch-name>
+```

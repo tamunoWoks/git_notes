@@ -66,3 +66,12 @@ git branch -m <new-branch-name>
 ```bash
 git branch -m <old-branch-name> <new-branch-name>
 ```
+#### List Merged Branches:
+- To see which branches have been merged into the current branch:
+```bash
+git branch --merged
+```
+- To see branches that haven’t been merged:
+```bash
+git branch --no-merged
+```

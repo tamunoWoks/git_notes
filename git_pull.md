@@ -40,7 +40,7 @@ If the remote branch has changes that conflict with your local changes, Git will
 CONFLICT (content): Merge conflict in file.txt
 Automatic merge failed; fix conflicts and then commit the result.
 ```
-#####To resolve conflicts:
+##### To resolve conflicts:
 - Open the conflicting file(s) and look for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`).
 - Edit the file to resolve the conflict.
 - Stage the resolved file:

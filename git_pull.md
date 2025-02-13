@@ -12,3 +12,9 @@ If you're working on the main branch and want to pull from the default remote (o
 ```bash
 git pull origin main
 ```
+#### Pull from the Current Branch:
+If you're already on the branch you want to pull, you can use:
+```bash
+git pull
+```
+This assumes the local branch is tracking a remote branch. If not, you may need to set the upstream branch (see below).

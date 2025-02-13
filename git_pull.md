@@ -52,15 +52,15 @@ git add file.txt
 git commit
 ```
 #### Local Branch Not Tracking Remote Branch:
-- If you see:
+If you see:
 ```
 There is no tracking information for the current branch.
 ```
-- Set the upstream branch:
+Set the upstream branch:
 ```bash
 git branch --set-upstream-to=origin/<branch-name> <branch-name>
 ```
-- Then pull:
+Then pull:
 ```bash
 git pull
 ```

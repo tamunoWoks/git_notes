@@ -64,3 +64,18 @@ Then pull:
 ```bash
 git pull
 ```
+#### Pull with Rebase:
+If you want to avoid merge commits and keep a linear history, use:
+```bash
+git pull --rebase
+```
+If conflicts occur during the rebase:
+- Resolve the conflicts.
+- Stage the resolved files:
+```bash
+git add <file>
+```
+- Continue the rebase:
+```bash
+git rebase --continue
+```

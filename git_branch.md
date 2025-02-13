@@ -6,3 +6,14 @@ git branch [options] [branch-name]
 ```
 **`[branch-name]`:** The name of the branch you want to create, delete, or rename.  
 **`[options]`:** Additional flags to modify the behavior of the command.
+### Common Usage Examples
+#### List All Branches:
+- To see a list of all branches in your repository:
+```bash
+git branch
+```
+The current branch will be highlighted with an asterisk (*).
+- To see remote branches as well:
+```bash
+git branch -a
+```

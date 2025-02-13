@@ -18,3 +18,8 @@ If you're already on the branch you want to pull, you can use:
 git pull
 ```
 This assumes the local branch is tracking a remote branch. If not, you may need to set the upstream branch (see below).
+#### Pull and Rebase Instead of Merge:
+If you want to avoid creating a merge commit and instead rebase your local changes on top of the remote changes, use:
+```bash
+git pull --rebase
+```

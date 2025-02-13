@@ -44,3 +44,16 @@ git checkout -b <branch-name>
 ```bash
 git switch -c <branch-name>
 ```
+#### Delete a Branch:
+- To delete a branch:
+```bash
+git branch -d <branch-name>
+```
+Example:
+```bash
+git branch -d feature-login
+```
+- If the branch has unmerged changes, Git will refuse to delete it. To force deletion:
+```bash
+git branch -D <branch-name>
+```

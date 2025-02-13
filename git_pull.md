@@ -28,3 +28,6 @@ If your local branch isn't tracking a remote branch yet, you can set the upstrea
 ```bash
 git pull -u origin <branch-name>
 ```
+#### What Happens When You Pull?
+- Fetch: Git downloads the latest changes from the remote repository.
+- Merge: Git integrates the remote changes into your local branch (unless you use `--rebase`).

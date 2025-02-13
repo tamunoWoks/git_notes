@@ -75,3 +75,8 @@ git branch --merged
 ```bash
 git branch --no-merged
 ```
+#### Set Upstream Branch:
+- To set the upstream (tracking) branch for the current branch:
+```bash
+git branch --set-upstream-to=origin/<branch-name>
+```

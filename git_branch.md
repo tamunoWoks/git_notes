@@ -57,3 +57,12 @@ git branch -d feature-login
 ```bash
 git branch -D <branch-name>
 ```
+#### Rename a Branch:
+- To rename the current branch:
+```bash
+git branch -m <new-branch-name>
+```
+- To rename a different branch:
+```bash
+git branch -m <old-branch-name> <new-branch-name>
+```

@@ -39,7 +39,7 @@ When you run git clone, Git performs the following steps:
 - Downloads the entire repository (files, branches, and commit history) from the remote server.
 - Creates a .git directory in the local repository to store metadata and version control information.
 - Checks out the default branch (usually main or master) into your working directory.
-#### Common Use Cases
+#### Common Use Cases:
 - Downloading a project from GitHub, GitLab, Bitbucket, or any other Git hosting service.
 - Starting work on an existing project.
 - Creating a local copy of a repository for development or testing.

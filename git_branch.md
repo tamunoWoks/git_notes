@@ -35,3 +35,12 @@ git checkout <branch-name>
 ```bash
 git switch <branch-name>
 ```
+#### Create and Switch to a New Branch:
+- To create a new branch and switch to it in one command:
+```bash
+git checkout -b <branch-name>
+```
+- or (Git 2.23+):
+```bash
+git switch -c <branch-name>
+```

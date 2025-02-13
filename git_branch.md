@@ -83,3 +83,7 @@ git branch --set-upstream-to=origin/<branch-name>
 #### What Happens When You Create a Branch?
 - Git creates a new pointer to the current commit.
 - The new branch is independent of other branches until you merge them.
+#### Tips:
+- Use descriptive branch names to make it clear what the branch is for (e.g., feature-login, bugfix-header, hotfix-security).
+- Regularly delete branches that are no longer needed to keep your repository clean.
+- Use git branch -a to see both local and remote branches.

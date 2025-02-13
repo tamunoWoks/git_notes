@@ -34,7 +34,7 @@ git pull -u origin <branch-name>
 - Merge: Git integrates the remote changes into your local branch (unless you use `--rebase`).
 #### Common Scenarios and Solutions
 ---
-#### Merge Conflicts
+#### Merge Conflicts:
 If the remote branch has changes that conflict with your local changes, Git will pause the merge and ask you to resolve the conflicts. You’ll see a message like:
 ```
 CONFLICT (content): Merge conflict in file.txt
@@ -50,4 +50,17 @@ git add file.txt
 - Complete the merge:
 ```bash
 git commit
+```
+#### Local Branch Not Tracking Remote Branch:
+- If you see:
+```
+There is no tracking information for the current branch.
+```
+- Set the upstream branch:
+```bash
+git branch --set-upstream-to=origin/<branch-name> <branch-name>
+```
+- Then pull:
+```bash
+git pull
 ```

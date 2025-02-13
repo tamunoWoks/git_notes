@@ -80,3 +80,6 @@ git branch --no-merged
 ```bash
 git branch --set-upstream-to=origin/<branch-name>
 ```
+#### What Happens When You Create a Branch?
+- Git creates a new pointer to the current commit.
+- The new branch is independent of other branches until you merge them.

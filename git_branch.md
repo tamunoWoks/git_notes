@@ -26,3 +26,12 @@ Example:
 ```bash
 git branch feature-login
 ```
+#### Switch to a Branch:
+- To switch to an existing branch, use git checkout or git switch:
+``` bash
+git checkout <branch-name>
+```
+- or (Git 2.23+):
+```bash
+git switch <branch-name>
+```

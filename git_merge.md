@@ -25,3 +25,8 @@ If Git creates a merge commit (e.g., in a non-fast-forward merge), it will open 
 ```bash
 git merge -m "Merge feature-login into main" feature-login
 ```
+#### Abort a Merge:
+- If you encounter conflicts and want to cancel the merge:
+```bash
+git merge --abort
+```

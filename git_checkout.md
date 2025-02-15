@@ -25,3 +25,12 @@ Example:
 ```bash
 git checkout -b feature-login
 ```
+#### Switch to a Specific Commit:
+- To switch to a specific commit (detached HEAD state):
+```bash
+git checkout <commit-hash>
+```
+Example:
+```bash
+git checkout d3b07384d113edec49eaa6238ad5ff00
+```

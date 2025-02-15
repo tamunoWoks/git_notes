@@ -94,3 +94,13 @@ git commit
 ```bash
 git push origin main
 ```
+### Tips
+- Always pull the latest changes from the remote repository before merging to avoid conflicts:
+```bash
+git pull origin main
+```
+- Use git merge --no-ff to preserve the history of feature branches.
+- Regularly delete merged branches to keep your repository clean:
+```bash
+git branch -d feature-login
+```

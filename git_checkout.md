@@ -34,3 +34,12 @@ Example:
 ```bash
 git checkout d3b07384d113edec49eaa6238ad5ff00
 ```
+#### Restore a File from a Specific Commit:
+- To restore a file to its state in a specific commit:
+```bash
+git checkout <commit-hash> -- <file-path>
+```
+Example:
+```bash
+git checkout d3b07384d113edec49eaa6238ad5ff00 -- README.md
+```

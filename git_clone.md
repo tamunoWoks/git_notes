@@ -1,5 +1,5 @@
-## git clone
-The git clone command is used to create a copy of a remote Git repository on your local machine. This is one of the most common commands when working with Git, as it allows you to download an entire repository, including its history and all branches.
+## `git clone`
+The `git clone` command is used to create a copy of a remote Git repository on your local machine. This is one of the most common commands when working with Git, as it allows you to download an entire repository, including its history and all branches.
 #### Syntax:
 ```bash
 git clone <repository-url> [destination-directory]

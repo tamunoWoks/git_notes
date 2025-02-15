@@ -5,3 +5,4 @@ The `git merge` command is used to combine changes from one branch into another.
 git merge <branch-name>
 ```
 **`<branch-name>`:** The name of the branch you want to merge into the current branch.
+### Common Usage Examples

@@ -1,1 +1,1 @@
-
+The git checkout command is one of the most versatile commands in Git. It is primarily used to switch between branches, restore files, or create new branches. It allows you to navigate through different versions of your project and work on different branches.

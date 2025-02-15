@@ -45,3 +45,5 @@ git merge --no-ff <branch-name>
 - **Merge Conflicts:**
   - If Git cannot automatically resolve differences between the branches, it pauses the merge and marks the conflicting files.
   - You must manually resolve the conflicts before completing the merge.
+### Resolving Merge Conflicts
+If a merge results in conflicts, Git will mark the conflicting files and pause the merge. Here's how to resolve conflicts:

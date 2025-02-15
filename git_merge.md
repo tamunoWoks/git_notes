@@ -19,3 +19,9 @@ If the current branch is directly behind the branch being merged, Git performs a
 git checkout main
 git merge feature-login
 ```
+#### Merge with a Commit Message:
+If Git creates a merge commit (e.g., in a non-fast-forward merge), it will open your default text editor for a commit message.  
+- You can also provide a message directly:
+```bash
+git merge -m "Merge feature-login into main" feature-login
+```

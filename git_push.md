@@ -1,5 +1,5 @@
-## git push
-The git push command is used to upload your local repository's commits to a remote repository. This is how you share your changes with others or back them up on a remote server (e.g., GitHub, GitLab, Bitbucket). After committing your changes locally, you use `git push` to synchronize your work with the remote repository.
+## `git push`
+The `git push` command is used to upload your local repository's commits to a remote repository. This is how you share your changes with others or back them up on a remote server (e.g., GitHub, GitLab, Bitbucket). After committing your changes locally, you use `git push` to synchronize your work with the remote repository.
 #### Syntax:
 ```bash
 git push <remote-name> <branch-name>

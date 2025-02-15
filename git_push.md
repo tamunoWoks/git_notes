@@ -83,4 +83,17 @@ Caution: Only force push if you're sure it won't overwrite others' work.
 - Always check `git status` and `git log` before pushing to ensure you're pushing the correct changes.
 - Use `git pull` before pushing to avoid conflicts with the remote branch.
 - Avoid force pushing (`--force`) unless absolutely necessary, as it can overwrite others' work.
-
+#### Example Workflow
+- Make changes and commit them locally:
+```bash
+git add .
+git commit -m "Add new feature"
+```
+- Push the changes to the remote repository:
+```bash
+git push origin main
+```
+- If the branch isn't tracking a remote branch yet:
+```bash
+git push -u origin main
+```

@@ -12,7 +12,7 @@ git checkout [options] <branch-or-commit>
 ```bash
 git checkout <branch-name>
 ```
-- Example:
+Example:
 ```bash
 git checkout main
 ```

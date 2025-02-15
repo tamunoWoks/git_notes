@@ -87,3 +87,32 @@ git branch --set-upstream-to=origin/<branch-name>
 - Use descriptive branch names to make it clear what the branch is for (e.g., feature-login, bugfix-header, hotfix-security).
 - Regularly delete branches that are no longer needed to keep your repository clean.
 - Use git branch -a to see both local and remote branches.
+#### Example Workflow:
+- Create a New Branch:
+```bash
+git branch feature-login
+```
+- Switch to the New Branch:
+```bash
+git checkout feature-login
+```
+- Make Changes and Commit:
+```bash
+git add .
+git commit -m "Add login feature"
+```
+- Push the Branch to Remote:
+```bash
+git push -u origin feature-login
+```
+- Merge the Branch into Main:
+Switch back to the main branch and merge:
+```bash
+git checkout main
+git merge feature-login
+```
+- Delete the Branch (optional):
+After merging, you can delete the branch:
+```bash
+git branch -d feature-login
+```

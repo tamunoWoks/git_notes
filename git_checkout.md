@@ -16,3 +16,12 @@ Example:
 ```bash
 git checkout main
 ```
+#### Create and Switch to a New Branch:
+- To create a new branch and switch to it in one command:
+```bash
+git checkout -b <new-branch-name>
+```
+Example:
+```bash
+git checkout -b feature-login
+```

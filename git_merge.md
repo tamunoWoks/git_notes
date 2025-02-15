@@ -47,3 +47,27 @@ git merge --no-ff <branch-name>
   - You must manually resolve the conflicts before completing the merge.
 ### Resolving Merge Conflicts
 If a merge results in conflicts, Git will mark the conflicting files and pause the merge. Here's how to resolve conflicts:
+#### Check the Status:
+```bash
+git status
+```
+Conflicted files will be listed under "Unmerged paths."
+#### Open the Conflicting Files:
+- Look for conflict markers (<<<<<<<, =======, >>>>>>>).
+- Edit the file to resolve the conflict.
+Example:
+```
+<<<<<<< HEAD
+This is the change from the current branch.
+=======
+This is the change from the branch being merged.
+>>>>>>> feature-login
+```
+#### Stage the Resolved Files:
+```
+git add <file-path>
+```
+#### Complete the Merge:
+```
+git commit
+```

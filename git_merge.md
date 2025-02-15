@@ -12,3 +12,10 @@ git merge <branch-name>
 git checkout main
 git merge feature-login
 ```
+#### Fast-Forward Merge:
+If the current branch is directly behind the branch being merged, Git performs a fast-forward merge. This simply moves the current branch pointer forward to match the target branch.
+- Example:
+```bash
+git checkout main
+git merge feature-login
+```

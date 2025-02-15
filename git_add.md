@@ -1,5 +1,5 @@
-## git add
-The git add command is used to stage changes in your working directory for the next commit. It tells Git which files or changes you want to include in the next snapshot (commit). This is a crucial step in the Git workflow, as it allows you to selectively choose what gets committed.
+## `git add`
+The `git add` command is used to stage changes in your working directory for the next commit. It tells Git which files or changes you want to include in the next snapshot (commit). This is a crucial step in the Git workflow, as it allows you to selectively choose what gets committed.
 #### Syntax:
 ```bash
 git add<file-or-directory>

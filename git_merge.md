@@ -6,3 +6,9 @@ git merge <branch-name>
 ```
 **`<branch-name>`:** The name of the branch you want to merge into the current branch.
 ### Common Usage Examples
+#### Merge a Branch into the Current Branch:
+- To merge a branch (e.g., feature-login) into the current branch (e.g., main):
+```bash
+git checkout main
+git merge feature-login
+```

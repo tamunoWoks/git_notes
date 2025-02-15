@@ -99,8 +99,12 @@ git checkout <branch-name>
 ```bash
 git stash pop
 ```
-#### Restoring a Deleted File
+#### Restoring a Deleted File:
 - If you accidentally deleted a file, you can restore it from the last commit:
 ```bash
 git checkout -- <file-path>
 ```
+#### Tips:
+- Use git checkout -b to create and switch to a new branch in one step.
+- Be cautious when using git checkout to restore files, as it overwrites the file in your working directory.
+- Use git stash to save uncommitted changes before switching branches.

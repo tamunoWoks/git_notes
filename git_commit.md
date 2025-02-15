@@ -1,5 +1,5 @@
-## git commit
-The git commit command is used to save the changes you've staged using `git add` to your local repository. Each commit creates a snapshot of your project at that point in time, along with a message describing the changes. This is a key part of the Git workflow, as it allows you to track the history of your project.
+## `git commit`
+The `git commit` command is used to save the changes you've staged using `git add` to your local repository. Each commit creates a snapshot of your project at that point in time, along with a message describing the changes. This is a key part of the Git workflow, as it allows you to track the history of your project.
 #### Syntax:
 ```bash
 git commit -m "Your commit message"

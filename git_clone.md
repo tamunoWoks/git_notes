@@ -43,3 +43,13 @@ When you run git clone, Git performs the following steps:
 - Downloading a project from GitHub, GitLab, Bitbucket, or any other Git hosting service.
 - Starting work on an existing project.
 - Creating a local copy of a repository for development or testing.
+### Example Workflow
+- Clone a repository:
+```bash
+git clone https://github.com/user/repo.git
+```
+- Navigate into the cloned directory:
+```bash
+cd repo
+```
+- Start working on the project! You can now make changes, commit them, and push them back to the remote repository.

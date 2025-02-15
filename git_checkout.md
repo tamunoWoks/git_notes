@@ -76,3 +76,13 @@ git checkout -b feature-login origin/feature-login
 - **Detached HEAD:** If you checkout a specific commit, you enter a "detached HEAD" state, where you’re not on any branch. Any changes you make will not be associated with a branch unless you create one.
 - **Restoring Files:** When you checkout a file, Git replaces the file in your working directory with the version from the specified commit or branch.
 ### Common Scenarios and Solutions
+#### Detached HEAD State:
+- If you checkout a specific commit, you’ll see a message like:
+```
+Note: switching to 'd3b07384d113edec49eaa6238ad5ff00'.
+You are in 'detached HEAD' state...
+```
+- To create a new branch from this state:
+```bash
+git checkout -b <new-branch-name>
+```

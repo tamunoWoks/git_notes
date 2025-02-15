@@ -66,3 +66,17 @@ Fixes #123
 - Keep commits small and focused. Each commit should represent a single logical change.
 - Use meaningful commit messages that explain why the change was made, not just what was changed.
 - If you forget to include a file in your commit, use git commit --amend to fix it.
+### Example Workflow
+- Make changes to your files.
+- Stage the changes:
+```bash
+git add file1.txt file2.txt
+```
+- Commit the changes:
+```bash
+git commit -m "Update file1.txt and file2.txt"
+```
+- Push the changes to the remote repository (if needed):
+```bash
+git push origin main
+```

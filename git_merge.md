@@ -71,3 +71,26 @@ git add <file-path>
 ```
 git commit
 ```
+### Example Workflow
+#### Switch to the Target Branch:
+```bash
+git checkout main
+```
+#### Merge the Feature Branch:
+```bash
+git merge feature-login
+```
+#### Resolve Conflicts (if any):
+- Edit the conflicting files.
+- Stage the resolved files:
+```bash
+git add <file-path>
+```
+- Complete the merge:
+```bash
+git commit
+```
+#### Push the Changes:
+```bash
+git push origin main
+```

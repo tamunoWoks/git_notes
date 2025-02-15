@@ -52,3 +52,13 @@ Example:
 ```bash
 git checkout -- README.md
 ```
+#### Switch to a Remote Branch:
+- To switch to a remote branch, first fetch the branch and then check it out:
+```bash
+git fetch origin
+git checkout <remote-branch-name>
+```
+Example:
+```bash
+git checkout origin/feature-login
+```

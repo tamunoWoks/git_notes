@@ -105,13 +105,13 @@ git commit -m "Add login feature"
 ```bash
 git push -u origin feature-login
 ```
-- Merge the Branch into Main:
+- Merge the Branch into Main:  
 Switch back to the main branch and merge:
 ```bash
 git checkout main
 git merge feature-login
 ```
-- Delete the Branch (optional):
+- Delete the Branch (optional):  
 After merging, you can delete the branch:
 ```bash
 git branch -d feature-login

@@ -62,3 +62,12 @@ Example:
 ```bash
 git checkout origin/feature-login
 ```
+#### Create a New Branch from a Remote Branch:
+To create a new local branch that tracks a remote branch:
+```bash
+git checkout -b <new-branch-name> origin/<remote-branch-name>
+```
+Example:
+```bash
+git checkout -b feature-login origin/feature-login
+```

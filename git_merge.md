@@ -36,12 +36,12 @@ git merge --abort
 git merge --no-ff <branch-name>
 ```
 #### What Happens When You Merge?
-- Fast-Forward Merge:
+- **Fast-Forward Merge:**
   - If the current branch is directly behind the branch being merged, Git moves the current branch pointer forward to match the target branch.
   - No new commit is created.
-- Three-Way Merge:
+- **Three-Way Merge:**
   - If the branches have diverged, Git performs a three-way merge, combining changes from both branches.
   - A new merge commit is created to represent the combined state.
-- Merge Conflicts:
+- **Merge Conflicts:**
   - If Git cannot automatically resolve differences between the branches, it pauses the merge and marks the conflicting files.
   - You must manually resolve the conflicts before completing the merge.

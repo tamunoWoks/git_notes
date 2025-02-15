@@ -81,3 +81,23 @@ git rebase --continue
 - Always pull before starting work to ensure you’re working with the latest version of the code.
 - Use git pull --rebase to maintain a cleaner, linear history.
 - If you’re unsure about the state of your repository, run git status and git log to check for uncommitted changes or conflicts.
+#### Example Workflow
+- Check the status of your local repository:
+```bash
+git status
+```
+- Pull the latest changes from the remote repository:
+```bash
+Copy
+git pull origin main
+```
+Resolve any conflicts (if necessary).
+- Continue working and commit your changes:
+```bash
+git add .
+git commit -m "Update project"
+```
+- Push your changes back to the remote repository:
+```bash
+git push origin main
+```

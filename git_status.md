@@ -12,7 +12,7 @@ When you run git status, Git provides the following information:
 - **Untracked Files:** Lists files that are in your working directory but not yet tracked by Git.
 - **Branch Status:** If your branch is ahead or behind the remote branch, Git will notify you.
 - **Merge or Rebase Status:** If you're in the middle of a merge or rebase, git status will show the current state and any conflicts that need to be resolved.
-#### Example Output:
+### Example Output:
 Here’s an example of what git status might display:
 ```bash
 On branch main
@@ -82,23 +82,3 @@ M  index.html
 - Run git status frequently to stay aware of the state of your working directory.
 - Use git status before committing to ensure you’re including all the changes you intend to.
 - If you’re unsure what to do next, git status often provides helpful hints in its output.
-### Example Output
-- Here’s an example of what git status might display:
-```bash
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   README.md
-        new file:   script.js
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   index.html
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        styles.css
-```

@@ -86,3 +86,16 @@ You are in 'detached HEAD' state...
 ```bash
 git checkout -b <new-branch-name>
 ```
+#### Uncommitted Changes:
+- If you have uncommitted changes, Git will prevent you from switching branches. To stash your changes:
+```bash
+git stash
+```
+- Then switch branches:
+```bash
+git checkout <branch-name>
+```
+- Later, reapply your changes:
+```bash
+git stash pop
+```

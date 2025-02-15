@@ -99,3 +99,8 @@ git checkout <branch-name>
 ```bash
 git stash pop
 ```
+#### Restoring a Deleted File
+- If you accidentally deleted a file, you can restore it from the last commit:
+```bash
+git checkout -- <file-path>
+```

@@ -108,3 +108,25 @@ git checkout -- <file-path>
 - Use git checkout -b to create and switch to a new branch in one step.
 - Be cautious when using git checkout to restore files, as it overwrites the file in your working directory.
 - Use git stash to save uncommitted changes before switching branches.
+#### Example Workflow:
+- Create and Switch to a New Branch:
+```bash
+git checkout -b feature-login
+```
+- Make Changes and Commit:
+```bash
+git add .
+git commit -m "Add login feature"
+```
+- Switch Back to the Main Branch:
+```bash
+git checkout main
+```
+- Merge the Feature Branch:
+```bash
+git merge feature-login
+```
+- Delete the Feature Branch (optional):
+```bash
+git branch -d feature-login
+```

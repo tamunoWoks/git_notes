@@ -42,3 +42,17 @@ git add *.txt
 #### What Happens When You Run git add?
 - Git takes a snapshot of the changes you've staged and prepares them for the next commit.
 - The changes are added to the staging area (also called the index), which is a temporary area where Git stores changes before they are committed.
+### Example Workflow
+- Make changes to your files.
+- Stage the changes:
+```bash
+git add filename.txt
+```
+- Check the status:
+```bash
+git status
+```
+- Commit the changes:
+```bash
+git commit -m "Add filename.txt"
+```

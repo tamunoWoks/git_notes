@@ -75,3 +75,4 @@ git checkout -b feature-login origin/feature-login
 - **Switching Branches:** Git updates your working directory to match the state of the branch or commit you’re switching to.
 - **Detached HEAD:** If you checkout a specific commit, you enter a "detached HEAD" state, where you’re not on any branch. Any changes you make will not be associated with a branch unless you create one.
 - **Restoring Files:** When you checkout a file, Git replaces the file in your working directory with the version from the specified commit or branch.
+### Common Scenarios and Solutions

@@ -43,3 +43,12 @@ Example:
 ```bash
 git checkout d3b07384d113edec49eaa6238ad5ff00 -- README.md
 ```
+#### Discard Changes in a File:
+- To discard changes in a file and restore it to the state in the last commit:
+```bash
+git checkout -- <file-path>
+```
+Example:
+```bash
+git checkout -- README.md
+```

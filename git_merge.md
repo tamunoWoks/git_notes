@@ -30,3 +30,8 @@ git merge -m "Merge feature-login into main" feature-login
 ```bash
 git merge --abort
 ```
+#### Merge Without Fast-Forward:
+- To force Git to create a merge commit even if a fast-forward merge is possible:
+```bash
+git merge --no-ff <branch-name>
+```

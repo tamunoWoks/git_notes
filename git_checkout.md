@@ -5,3 +5,4 @@ git checkout [options] <branch-or-commit>
 ```
 **`<branch-or-commit>`:** The name of the branch or the commit hash you want to switch to.  
 **`[options]`:** Additional flags to modify the behavior of the command.
+### Common Usage Examples

@@ -44,3 +44,9 @@ git log origin/main..main
 | `git fetch` | Downloads changes from the remote repository but does not merge them. |
 | `git pull` | Downloads changes from the remote repository and merges them into your branch. |
 ### Common Scenarios and Solutions
+#### Review Changes Before Merging:
+- After fetching, you can compare the remote branch with your local branch:
+```bash=
+git fetch origin
+git log origin/main..main
+```

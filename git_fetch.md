@@ -55,3 +55,9 @@ git log origin/main..main
 ```bash
 git merge origin/main
 ```
+#### Rebase Instead of Merge:
+- To rebase your local branch on top of the fetched changes:
+```bash
+git fetch origin
+git rebase origin/main
+```

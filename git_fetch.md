@@ -61,3 +61,9 @@ git merge origin/main
 git fetch origin
 git rebase origin/main
 ```
+#### Check Out a Remote Branch:
+- To create a local branch that tracks a remote branch:
+```bash
+git fetch origin
+git checkout -b <new-branch-name> origin/<remote-branch-name>
+```

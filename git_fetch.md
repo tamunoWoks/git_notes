@@ -13,3 +13,8 @@ git fetch <remote-name> [branch-name]
 ```bash
 git fetch origin
 ```
+#### Fetch a Specific Branch:
+- To fetch updates for a specific branch (e.g., main):
+```bash
+git fetch origin main
+```

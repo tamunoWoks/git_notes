@@ -23,3 +23,8 @@ git fetch origin main
 ```bash
 git fetch --prune
 ```
+#### Fetch Tags:
+- To fetch all tags from the remote repository:
+```bash
+git fetch --tags
+```

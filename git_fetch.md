@@ -72,3 +72,8 @@ git checkout -b <new-branch-name> origin/<remote-branch-name>
 ```bash
 git fetch origin
 ```
+#### Review the Changes:
+```
+bash
+git log origin/main..main
+```

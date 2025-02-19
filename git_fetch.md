@@ -81,3 +81,7 @@ git log origin/main..main
 ```bash
 git merge origin/main
 ```
+#### Push Your Changes (if needed):
+```bash
+git push origin main
+```

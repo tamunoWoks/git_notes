@@ -8,3 +8,8 @@ git fetch <remote-name> [branch-name]
 - **`<remote-name>`:** The name of the remote repository (usually origin by default).
 - **`[branch-name]`:** (Optional) The specific branch you want to fetch. If omitted, Git fetches all branches from the remote.
 ### Common Usage Examples
+- Fetch All Branches from the Remote:
+To fetch all branches and updates from the remote repository:
+```bash
+git fetch origin
+```

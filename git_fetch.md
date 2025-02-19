@@ -68,3 +68,7 @@ git fetch origin
 git checkout -b <new-branch-name> origin/<remote-branch-name>
 ```
 ### Example Workflow
+#### Fetch the Latest Changes:
+```bash
+git fetch origin
+```

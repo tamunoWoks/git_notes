@@ -77,3 +77,7 @@ git fetch origin
 bash
 git log origin/main..main
 ```
+#### Merge the Changes:
+```bash
+git merge origin/main
+```

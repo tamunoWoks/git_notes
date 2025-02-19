@@ -67,3 +67,4 @@ git rebase origin/main
 git fetch origin
 git checkout -b <new-branch-name> origin/<remote-branch-name>
 ```
+### Example Workflow

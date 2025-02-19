@@ -85,3 +85,7 @@ git merge origin/main
 ```bash
 git push origin main
 ```
+### Tips
+- Use `git fetch` regularly to stay up to date with the remote repository without immediately merging changes.
+- Combine git fetch with `git diff` or `git log` to review changes before integrating them.
+- Use `git fetch --prune` to clean up deleted branches from your local repository.

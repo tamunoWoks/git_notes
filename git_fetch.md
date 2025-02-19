@@ -38,4 +38,8 @@ git log origin/main..main
 - Git downloads the latest changes (commits, branches, and tags) from the remote repository.
 - These changes are stored in your local repository but not merged into your working directory.
 - You can review the changes using commands like `git log`, `git diff`, or `git status`.
-### Key Differences Between git fetch and git pull:
+#### Key Differences Between git fetch and git pull:
+| Command | Behavior |
+|---------|-----------|
+| `git fetch` | Downloads changes from the remote repository but does not merge them. |
+| `git pull` | Downloads changes from the remote repository and merges them into your branch. |

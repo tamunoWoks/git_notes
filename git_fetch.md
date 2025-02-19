@@ -18,3 +18,8 @@ git fetch origin
 ```bash
 git fetch origin main
 ```
+#### Fetch and Prune Deleted Branches:
+- To remove local references to branches that have been deleted on the remote:
+```bash
+git fetch --prune
+```

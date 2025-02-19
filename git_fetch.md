@@ -40,6 +40,6 @@ git log origin/main..main
 - You can review the changes using commands like `git log`, `git diff`, or `git status`.
 #### Key Differences Between git fetch and git pull:
 | Command | Behavior |
-|---------|-----------|
+|-----------|-------------|
 | `git fetch` | Downloads changes from the remote repository but does not merge them. |
 | `git pull` | Downloads changes from the remote repository and merges them into your branch. |

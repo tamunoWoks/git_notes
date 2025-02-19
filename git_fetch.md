@@ -7,4 +7,4 @@ The git fetch command is used to download changes from a remote repository to yo
 git fetch <remote-name> [branch-name]
 ```
 - **`<remote-name>`:** The name of the remote repository (usually origin by default).
-- **`[branch-name]`: (Optional)** The specific branch you want to fetch. If omitted, Git fetches all branches from the remote.
+- **`[branch-name]`:** (Optional) The specific branch you want to fetch. If omitted, Git fetches all branches from the remote.

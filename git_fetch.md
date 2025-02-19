@@ -50,3 +50,8 @@ git log origin/main..main
 git fetch origin
 git log origin/main..main
 ```
+#### Merge Fetched Changes:
+- To integrate the fetched changes into your current branch:
+```bash
+git merge origin/main
+```

@@ -43,3 +43,4 @@ git log origin/main..main
 |-----------|-------------|
 | `git fetch` | Downloads changes from the remote repository but does not merge them. |
 | `git pull` | Downloads changes from the remote repository and merges them into your branch. |
+### Common Scenarios and Solutions

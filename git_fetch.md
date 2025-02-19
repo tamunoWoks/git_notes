@@ -28,3 +28,9 @@ git fetch --prune
 ```bash
 git fetch --tags
 ```
+#### Fetch and Display Changes:
+- To fetch changes and display what’s new:
+```bash
+git fetch origin
+git log origin/main..main
+```

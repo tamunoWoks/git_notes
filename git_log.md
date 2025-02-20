@@ -63,3 +63,8 @@ git log --until="2023-10-01"
 ```bash
 git log --grep="bugfix"
 ```
+#### Show Changes in Each Commit:
+- To display the changes (diffs) made in each commit:
+```bash
+git log -p
+```

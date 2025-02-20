@@ -5,3 +5,4 @@ The git log command is used to display the commit history of a repository. It sh
 git log [options]
 ```
 - **`[options]`:** Additional flags to customize the output.
+### Common Usage Examples

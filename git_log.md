@@ -68,3 +68,8 @@ git log --grep="bugfix"
 ```bash
 git log -p
 ```
+#### Graphical View of Branches:
+- To visualize the commit history with branch and merge information:
+```bash
+git log --graph --oneline
+```

@@ -109,3 +109,24 @@ git log --pretty=format:"%h - %an, %ar : %s"
 - `%an`: Author name.
 - `%ar`: Author date, relative.
 - `%s`: Commit message.
+### Example Workflow
+- View the Full Commit History:
+```bash
+git log
+```
+- Check Recent Changes:
+```bash
+git log -n 5
+```
+- Find Commits by a Specific Author:
+```bash
+git log --author="John Doe"
+```
+- Review Changes for a Specific File:
+```bash
+git log README.md
+```
+- Visualize Branch History:
+```bash
+git log --graph --oneline
+```

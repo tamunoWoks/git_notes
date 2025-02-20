@@ -30,3 +30,7 @@ Date:   Sun Oct 1 10:00:00 2023 -0400
 ```bash
 git log -n <number>
 ```
+- Example (show the last 3 commits):
+```bash
+git log -n 3
+```

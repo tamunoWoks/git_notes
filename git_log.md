@@ -34,3 +34,8 @@ git log -n <number>
 ```bash
 git log -n 3
 ```
+#### Show a Summary of Changes:
+To display a condensed summary of each commit:
+```bash
+git log --oneline
+```

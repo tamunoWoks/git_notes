@@ -90,3 +90,8 @@ git log <file-path>
 ```bash
 git log README.md
 ```
+#### Show Only Merge Commits:
+- To display only merge commits:
+```bash
+git log --merges
+```

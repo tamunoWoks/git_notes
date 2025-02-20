@@ -44,3 +44,8 @@ git log --oneline
 d3b0738 Add login feature
 a1b2c3d Update README.md
 ```
+#### Filter by Author:
+- To show commits by a specific author:
+```bash
+git log --author="John Doe"
+```

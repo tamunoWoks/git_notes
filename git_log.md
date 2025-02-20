@@ -73,3 +73,11 @@ git log -p
 ```bash
 git log --graph --oneline
 ```
+- Example output:
+```
+* d3b0738 (HEAD -> main) Add login feature
+* a1b2c3d Update README.md
+| * 1234567 (feature-login) Fix login bug
+|/
+* 890abcd Initial commit
+```

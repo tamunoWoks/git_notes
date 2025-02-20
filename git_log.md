@@ -97,3 +97,7 @@ git log --merges
 ```
 ### Customizing the Output
 You can customize the output of `git log` using the `--pretty` flag. For example:
+- **One-line format:**
+```bash
+git log --pretty=oneline
+```

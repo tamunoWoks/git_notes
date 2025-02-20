@@ -86,3 +86,7 @@ git log --graph --oneline
 ```bash
 git log <file-path>
 ```
+- Example:
+```bash
+git log README.md
+```

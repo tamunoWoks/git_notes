@@ -58,3 +58,8 @@ git log --since="2023-10-01"
 ```bash
 git log --until="2023-10-01"
 ```
+#### Search for a Keyword in Commit Messages:
+- To search for commits with a specific keyword in the message:
+```bash
+git log --grep="bugfix"
+```

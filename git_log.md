@@ -95,3 +95,5 @@ git log README.md
 ```bash
 git log --merges
 ```
+### Customizing the Output
+You can customize the output of `git log` using the `--pretty` flag. For example:

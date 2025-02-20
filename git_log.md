@@ -130,3 +130,8 @@ git log README.md
 ```bash
 git log --graph --oneline
 ```
+### Tips
+- Use `git log --oneline` for a quick overview of the commit history.
+- Combine `git log` with `grep` or other filters to find specific commits.
+- Use `git log -p` to see the exact changes made in each commit.
+

@@ -25,3 +25,8 @@ Date:   Sun Oct 1 10:00:00 2023 -0400
 
     Update README.md
 ```
+#### Limit the Number of Commits:
+- To show only the last n commits:
+```bash
+git log -n <number>
+```

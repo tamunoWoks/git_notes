@@ -35,7 +35,12 @@ git log -n <number>
 git log -n 3
 ```
 #### Show a Summary of Changes:
-To display a condensed summary of each commit:
+- To display a condensed summary of each commit:
 ```bash
 git log --oneline
+```
+- Example output:
+```
+d3b0738 Add login feature
+a1b2c3d Update README.md
 ```

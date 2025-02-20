@@ -101,3 +101,11 @@ You can customize the output of `git log` using the `--pretty` flag. For example
 ```bash
 git log --pretty=oneline
 ```
+- **Custom format:**
+```bash
+git log --pretty=format:"%h - %an, %ar : %s"
+```
+- `%h`: Abbreviated commit hash.
+- `%an`: Author name.
+- `%ar`: Author date, relative.
+- `%s`: Commit message.

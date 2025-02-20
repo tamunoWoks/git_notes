@@ -49,3 +49,12 @@ a1b2c3d Update README.md
 ```bash
 git log --author="John Doe"
 ```
+#### Filter by Date:
+- To show commits after a specific date:
+```bash
+git log --since="2023-10-01"
+```
+- To show commits before a specific date:
+```bash
+git log --until="2023-10-01"
+```

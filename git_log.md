@@ -6,3 +6,8 @@ git log [options]
 ```
 - **`[options]`:** Additional flags to customize the output.
 ### Common Usage Examples
+#### View the Commit History:
+- To display the full commit history:
+```bash
+git log
+```

@@ -11,3 +11,17 @@ git log [options]
 ```bash
 git log
 ```
+- **Example output:**
+```
+commit d3b07384d113edec49eaa6238ad5ff00
+Author: John Doe <john.doe@example.com>
+Date:   Mon Oct 2 12:00:00 2023 -0400
+
+    Add login feature
+
+commit a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+Author: Jane Smith <jane.smith@example.com>
+Date:   Sun Oct 1 10:00:00 2023 -0400
+
+    Update README.md
+```

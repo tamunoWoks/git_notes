@@ -81,3 +81,8 @@ git log --graph --oneline
 |/
 * 890abcd Initial commit
 ```
+#### Show Changes for a Specific File:
+- To view the commit history for a specific file:
+```bash
+git log <file-path>
+```

@@ -11,7 +11,7 @@ git log [options]
 ```bash
 git log
 ```
-- **Example output:**
+**Example output:**
 ```
 commit d3b07384d113edec49eaa6238ad5ff00
 Author: John Doe <john.doe@example.com>

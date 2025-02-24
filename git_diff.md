@@ -14,3 +14,4 @@ git diff [options] [commit1] [commit2] [--] [path]
 - **``[commit1]``** and **``[commit2]``:** Commits, branches, or tags to compare.
 - **``[--]``:** Separates options from file paths.
 - **``[path]``:** Specific file or directory to compare.
+### Common Usage Examples

@@ -20,3 +20,8 @@ To see changes in your working directory that are not yet staged:
 ```bash
 git diff
 ```
+#### - Compare Staging Area and Latest Commit:
+To see changes that are staged but not yet committed:
+```bash
+git diff --cached
+```

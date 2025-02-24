@@ -107,3 +107,24 @@ index 1234567..890abcd 100644
 +This is the new text.
  Welcome to the project.
 ```
+### Example Workflow
+- Check Unstaged Changes:
+```bash
+git diff
+```
+- Check Staged Changes:
+```bash
+git diff --cached
+```
+- Compare Two Branches:
+```bash
+git diff main..feature-login
+```
+- Review Changes in a Specific File:
+```bash
+git diff README.md
+```
+- Summarize Changes:
+```bash
+git diff --stat
+```

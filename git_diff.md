@@ -90,9 +90,9 @@ To see a summary of changes (e.g., which files were modified):
 git diff --stat
 ```
 ### Understanding the Output
-The output of ```git diff``` is in **unified diff format**:
-- Lines starting with + are additions.
-- Lines starting with - are deletions.
+The output of `git diff` is in **unified diff format**:
+- Lines starting with `+` are additions.
+- Lines starting with `-` are deletions.
 - Lines without a prefix are context lines.
 
 Example:

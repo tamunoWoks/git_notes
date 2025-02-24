@@ -43,3 +43,12 @@ Example:
 ```bash
 git diff d3b0738 a1b2c3d
 ```
+#### - Compare Two Branches:
+To see differences between two branches:
+```bash
+git diff <branch1>..<branch2>
+```
+Example:
+```bash
+git diff main..feature-login
+```

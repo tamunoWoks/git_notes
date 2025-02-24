@@ -34,3 +34,12 @@ To see all changes in your working directory (both staged and unstaged):
 ```bash
 git diff HEAD
 ```
+#### - Compare Two Commits:
+To see differences between two commits:
+```bash
+git diff <commit1> <commit2>
+```
+Example:
+```bash
+git diff d3b0738 a1b2c3d
+```

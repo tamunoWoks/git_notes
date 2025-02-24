@@ -70,3 +70,12 @@ Example:
 ```bash
 git diff d3b0738^!
 ```
+#### - Compare Changes Between Working Directory and a Specific Commit:
+To see differences between your working directory and a specific commit:
+```bash
+git diff <commit>
+```
+Example:
+```bash
+git diff HEAD~3
+```

@@ -52,3 +52,12 @@ Example:
 ```bash
 git diff main..feature-login
 ```
+#### - Compare Specific File:
+To see changes in a specific file:
+```bash
+git diff <file-path>
+```
+Example:
+```bash
+git diff README.md
+```

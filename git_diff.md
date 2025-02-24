@@ -25,3 +25,7 @@ To see changes that are staged but not yet committed:
 ```bash
 git diff --cached
 ```
+or:
+```bash
+git diff --staged
+```

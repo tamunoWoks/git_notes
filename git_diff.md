@@ -128,3 +128,8 @@ git diff README.md
 ```bash
 git diff --stat
 ```
+### Tips
+- Use git diff frequently to review changes before committing.
+- Combine git diff with git log to understand the history of changes.
+- Use git diff --word-diff for more granular comparisons.
+

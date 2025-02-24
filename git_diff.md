@@ -29,3 +29,8 @@ or:
 ```bash
 git diff --staged
 ```
+#### - Compare Working Directory and Latest Commit:
+To see all changes in your working directory (both staged and unstaged):
+```bash
+git diff HEAD
+```

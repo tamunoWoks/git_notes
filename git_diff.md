@@ -84,3 +84,8 @@ To see word-level differences instead of line-level:
 ```bash
 git diff --word-diff
 ```
+#### - Summary of Changes:
+To see a summary of changes (e.g., which files were modified):
+```bash
+git diff --stat
+```

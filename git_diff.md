@@ -79,3 +79,8 @@ Example:
 ```bash
 git diff HEAD~3
 ```
+#### - Word Diff:
+To see word-level differences instead of line-level:
+```bash
+git diff --word-diff
+```

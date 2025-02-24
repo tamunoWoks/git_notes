@@ -89,3 +89,21 @@ To see a summary of changes (e.g., which files were modified):
 ```bash
 git diff --stat
 ```
+### Understanding the Output
+The output of ```git diff``` is in **unified diff format**:
+- Lines starting with + are additions.
+- Lines starting with - are deletions.
+- Lines without a prefix are context lines.
+
+Example:
+```diff
+diff --git a/README.md b/README.md
+index 1234567..890abcd 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,5 @@
+ Hello, World!
+-This is the old text.
++This is the new text.
+ Welcome to the project.
+```

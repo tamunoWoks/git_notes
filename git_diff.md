@@ -61,3 +61,12 @@ Example:
 ```bash
 git diff README.md
 ```
+#### - Compare Changes in a Specific Commit:
+To see changes introduced by a specific commit:
+```bash
+git diff <commit>^!
+```
+Example:
+```bash
+git diff d3b0738^!
+```

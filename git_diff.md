@@ -15,8 +15,8 @@ git diff [options] [commit1] [commit2] [--] [path]
 - **``[--]``:** Separates options from file paths.
 - **``[path]``:** Specific file or directory to compare.
 ### Common Usage Examples
-#### Compare Working Directory and Staging Area:
-- To see changes in your working directory that are not yet staged:
+#### - Compare Working Directory and Staging Area:
+To see changes in your working directory that are not yet staged:
 ```bash
 git diff
 ```

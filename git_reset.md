@@ -52,3 +52,8 @@ git reset <commit> -- <file-path>
 ```bash
 git reset HEAD -- README.md
 ```
+#### Undo the Last Commit:
+To undo the last commit but keep the changes in your working directory:
+```bash
+git reset --soft HEAD~1
+```

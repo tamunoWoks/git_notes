@@ -69,3 +69,8 @@ git reset --hard HEAD~1
 | `--mixed` |	Resets the branch pointer and staging area but keeps changes in the working directory (default mode). |
 | `--hard` |	Resets the branch pointer, staging area, and working directory (discards all changes). |
 ### Common Scenarios and Solutions
+#### Unstage Changes:
+If you accidentally staged changes and want to unstage them:
+```bash
+git reset
+```

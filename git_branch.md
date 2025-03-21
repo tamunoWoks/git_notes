@@ -22,7 +22,7 @@ git branch -a
 ```bash
 git branch <branch-name>
 ```
-Example:
+- Example:
 ```bash
 git branch feature-login
 ```
@@ -49,7 +49,7 @@ git switch -c <branch-name>
 ```bash
 git branch -d <branch-name>
 ```
-Example:
+- Example:
 ```bash
 git branch -d feature-login
 ```

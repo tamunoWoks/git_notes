@@ -89,3 +89,8 @@ If you want to reset your branch to a previous commit and discard all changes:
 ```bash
 git reset --hard <commit>
 ```
+#### Reset a Specific File:
+If you want to reset a specific file to its state in the last commit:
+```bash
+git reset HEAD -- <file-path>
+```

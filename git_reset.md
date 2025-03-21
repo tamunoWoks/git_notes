@@ -57,3 +57,8 @@ To undo the last commit but keep the changes in your working directory:
 ```bash
 git reset --soft HEAD~1
 ```
+#### Undo the Last Commit and Discard Changes:
+To undo the last commit and discard all changes:
+```bash
+git reset --hard HEAD~1
+```

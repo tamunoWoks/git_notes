@@ -103,7 +103,11 @@ git reset
 ```bash
 git reset --soft HEAD~1
 ```
-Discard All Changes:
+- Discard All Changes:
 ```bash
 git reset --hard HEAD
+```
+- Reset to a Specific Commit:
+```bash
+git reset --hard d3b0738
 ```

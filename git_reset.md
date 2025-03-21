@@ -43,3 +43,12 @@ git reset --hard <commit>
 ```bash
 git reset --hard HEAD~1
 ```
+#### Reset a Specific File:
+To reset a specific file to its state in a specific commit:
+```bash
+git reset <commit> -- <file-path>
+```
+- Example:
+```bash
+git reset HEAD -- README.md
+```

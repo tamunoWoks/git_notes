@@ -112,6 +112,6 @@ git reset --hard HEAD
 git reset --hard d3b0738
 ```
 ### Tips
-- Use git reset --soft to undo commits without losing changes.
-- Use git reset --hard with caution, as it discards all changes permanently.
-- Always double-check your commit history with git log before resetting.
+- Use `git reset --soft` to undo commits without losing changes.
+- Use `git reset --hard` with caution, as it discards all changes permanently.
+- Always double-check your commit history with `git log` before resetting.

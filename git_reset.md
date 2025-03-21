@@ -74,3 +74,8 @@ If you accidentally staged changes and want to unstage them:
 ```bash
 git reset
 ```
+#### Undo the Last Commit:
+If you want to undo the last commit but keep the changes:
+```bash
+git reset --soft HEAD~1
+```

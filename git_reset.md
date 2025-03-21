@@ -62,3 +62,9 @@ To undo the last commit and discard all changes:
 ```bash
 git reset --hard HEAD~1
 ```
+### Modes of `git reset`
+| Mode | Effect |
+|------|--------|
+| `--soft` |	Resets the branch pointer but keeps changes in the staging area and working directory. |
+| `--mixed` |	Resets the branch pointer and staging area but keeps changes in the working directory (default mode). |
+| `--hard` |	Resets the branch pointer, staging area, and working directory (discards all changes). |

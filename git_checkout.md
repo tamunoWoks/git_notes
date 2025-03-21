@@ -12,7 +12,7 @@ git checkout [options] <branch-or-commit>
 ```bash
 git checkout <branch-name>
 ```
-Example:
+- Example:
 ```bash
 git checkout main
 ```
@@ -21,7 +21,7 @@ git checkout main
 ```bash
 git checkout -b <new-branch-name>
 ```
-Example:
+- Example:
 ```bash
 git checkout -b feature-login
 ```
@@ -30,7 +30,7 @@ git checkout -b feature-login
 ```bash
 git checkout <commit-hash>
 ```
-Example:
+- Example:
 ```bash
 git checkout d3b07384d113edec49eaa6238ad5ff00
 ```
@@ -39,7 +39,7 @@ git checkout d3b07384d113edec49eaa6238ad5ff00
 ```bash
 git checkout <commit-hash> -- <file-path>
 ```
-Example:
+- Example:
 ```bash
 git checkout d3b07384d113edec49eaa6238ad5ff00 -- README.md
 ```
@@ -48,7 +48,7 @@ git checkout d3b07384d113edec49eaa6238ad5ff00 -- README.md
 ```bash
 git checkout -- <file-path>
 ```
-Example:
+- Example:
 ```bash
 git checkout -- README.md
 ```
@@ -58,7 +58,7 @@ git checkout -- README.md
 git fetch origin
 git checkout <remote-branch-name>
 ```
-Example:
+- Example:
 ```bash
 git checkout origin/feature-login
 ```
@@ -67,7 +67,7 @@ To create a new local branch that tracks a remote branch:
 ```bash
 git checkout -b <new-branch-name> origin/<remote-branch-name>
 ```
-Example:
+- Example:
 ```bash
 git checkout -b feature-login origin/feature-login
 ```

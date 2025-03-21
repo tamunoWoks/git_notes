@@ -99,3 +99,7 @@ git reset HEAD -- <file-path>
 ```bash
 git reset
 ```
+- Undo the Last Commit:
+```bash
+git reset --soft HEAD~1
+```

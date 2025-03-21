@@ -49,7 +49,7 @@ A good commit message clearly describes the changes made. Here’s a common form
 <BLANK LINE>
 <footer>
 ```
-**Example:**
+- Example:
 ```
 feat: Add user authentication
 

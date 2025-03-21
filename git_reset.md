@@ -7,3 +7,12 @@ git reset [mode] [commit]
 - **`[mode]`:** Determines how the reset is performed. Common modes are `--soft`, `--mixed`, and `--hard`.
 - **`[commit]`:** The commit to reset to (default is `HEAD`).
 ### Common Usage Examples
+#### Unstage Changes (Mixed Reset):
+To unstage changes but keep them in your working directory:
+```bash
+git reset
+```
+or:
+```bash
+git reset --mixed
+```

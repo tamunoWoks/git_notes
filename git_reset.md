@@ -94,3 +94,4 @@ If you want to reset a specific file to its state in the last commit:
 ```bash
 git reset HEAD -- <file-path>
 ```
+### Example Workflow

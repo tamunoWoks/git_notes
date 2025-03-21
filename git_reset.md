@@ -84,3 +84,8 @@ If you want to discard all changes and reset to the last commit:
 ```bash
 git reset --hard HEAD
 ```
+#### Reset to a Previous Commit:
+If you want to reset your branch to a previous commit and discard all changes:
+```bash
+git reset --hard <commit>
+```

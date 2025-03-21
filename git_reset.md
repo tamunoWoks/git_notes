@@ -79,3 +79,8 @@ If you want to undo the last commit but keep the changes:
 ```bash
 git reset --soft HEAD~1
 ```
+#### Discard All Changes:
+If you want to discard all changes and reset to the last commit:
+````bash
+git reset --hard HEAD
+```

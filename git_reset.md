@@ -25,3 +25,12 @@ git reset <commit>
 ```bash
 git reset d3b0738
 ```
+#### Soft Reset:
+To reset the branch pointer to a specific commit but keep changes in the staging area and working directory:
+```bash
+git reset --soft <commit>
+```
+- Example:
+```bash
+git reset --soft HEAD~1
+```

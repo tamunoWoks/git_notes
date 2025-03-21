@@ -21,7 +21,7 @@ To reset the current branch to a specific commit:
 ```bash
 git reset <commit>
 ```
-**Example:**
+- Example:
 ```bash
 git reset d3b0738
 ```

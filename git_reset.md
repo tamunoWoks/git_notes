@@ -5,4 +5,4 @@ The `git reset` command is used to undo changes in your repository. It can modif
 git reset [mode] [commit]
 ```
 - **`[mode]`:** Determines how the reset is performed. Common modes are `--soft`, `--mixed`, and `--hard`.
-- **`[commit]`:** The commit to reset to (default is HEAD).
+- **`[commit]`:** The commit to reset to (default is `HEAD`).

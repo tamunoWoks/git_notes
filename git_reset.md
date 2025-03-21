@@ -16,3 +16,12 @@ or:
 ```bash
 git reset --mixed
 ```
+#### Reset to a Specific Commit:
+To reset the current branch to a specific commit:
+```bash
+git reset <commit>
+```
+**Example:**
+```bash
+git reset d3b0738
+```

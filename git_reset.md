@@ -34,3 +34,12 @@ git reset --soft <commit>
 ```bash
 git reset --soft HEAD~1
 ```
+#### Hard Reset:
+To reset the branch pointer, staging area, and working directory to a specific commit (discarding all changes):
+```bash
+git reset --hard <commit>
+```
+- Example:
+```bash
+git reset --hard HEAD~1
+```

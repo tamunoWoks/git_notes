@@ -19,3 +19,12 @@ git remote -v
 origin  https://github.com/user/repo.git (fetch)
 origin  https://github.com/user/repo.git (push)
 ```
+#### Add a Remote:
+To add a new remote repository:
+```bash
+git remote add <name> <url>
+```
+- Example:
+```bash
+git remote add origin https://github.com/user/repo.git
+```

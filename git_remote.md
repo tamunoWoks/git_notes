@@ -101,3 +101,7 @@ git fetch upstream
 ```bash
 git remote rename myfork fork
 ```
+- Remove a remote:
+```bash
+git remote remove fork
+```

@@ -6,7 +6,7 @@ git remote [subcommand] [options] [arguments]
 ```
 ### Common Subcommands
 #### List Remotes:
-To view all configured remote repositories:
+- To view all configured remote repositories:
 ```bash
 git remote
 ```
@@ -20,7 +20,7 @@ origin  https://github.com/user/repo.git (fetch)
 origin  https://github.com/user/repo.git (push)
 ```
 #### Add a Remote:
-To add a new remote repository:
+- To add a new remote repository:
 ```bash
 git remote add <name> <url>
 ```
@@ -29,7 +29,7 @@ git remote add <name> <url>
 git remote add origin https://github.com/user/repo.git
 ```
 #### Rename a Remote:
-To rename an existing remote:
+- To rename an existing remote:
 ```bash
 git remote rename <old-name> <new-name>
 ```

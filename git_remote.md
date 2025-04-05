@@ -4,3 +4,4 @@ The `git remote` command is used to manage connections to remote repositories. I
 ```bash
 git remote [subcommand] [options] [arguments]
 ```
+### Common Subcommands

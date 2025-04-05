@@ -79,3 +79,8 @@ git clone https://github.com/user/repo.git
 ```bash
 git remote add upstream https://github.com/original/repo.git
 ```
+#### Switching Protocols:
+- Update the remote URL from HTTPS to SSH:
+```bash
+git remote set-url origin git@github.com:user/repo.git
+```

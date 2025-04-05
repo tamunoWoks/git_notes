@@ -89,3 +89,7 @@ git remote set-url origin git@github.com:user/repo.git
 ```bash
 git remote -v
 ```
+- Add a new remote (e.g., for a fork):
+```bash
+git remote add myfork https://github.com/your-username/repo.git
+```

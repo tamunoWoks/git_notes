@@ -28,3 +28,12 @@ git remote add <name> <url>
 ```bash
 git remote add origin https://github.com/user/repo.git
 ```
+#### Rename a Remote:
+To rename an existing remote:
+```bash
+git remote rename <old-name> <new-name>
+```
+- Example:
+```bash
+git remote rename origin upstream
+```

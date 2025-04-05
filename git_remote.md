@@ -85,7 +85,7 @@ git remote add upstream https://github.com/original/repo.git
 git remote set-url origin git@github.com:user/repo.git
 ```
 ### Example Workflow
-#### List existing remotes:
+#### - List existing remotes:
 ```bash
 git remote -v
 ```

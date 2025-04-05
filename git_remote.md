@@ -50,3 +50,12 @@ git remote rm <name>
 ```bash
 git remote remove origin
 ```
+### Show Remote Details:
+- To inspect a specific remote (URL, fetch/push info):
+```bash
+git remote show <name>
+```
+- Example:
+```bash
+git remote show origin
+```

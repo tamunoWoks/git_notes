@@ -85,23 +85,23 @@ git remote add upstream https://github.com/original/repo.git
 git remote set-url origin git@github.com:user/repo.git
 ```
 ### Example Workflow
-- List existing remotes:
+#### List existing remotes:
 ```bash
 git remote -v
 ```
-- Add a new remote (e.g., for a fork):
+#### Add a new remote (e.g., for a fork):
 ```bash
 git remote add myfork https://github.com/your-username/repo.git
 ```
-- Fetch changes from a remote:
+#### Fetch changes from a remote:
 ```bash
 git fetch upstream
 ```
-- Rename a remote:
+#### Rename a remote:
 ```bash
 git remote rename myfork fork
 ```
-- Remove a remote:
+#### Remove a remote:
 ```bash
 git remote remove fork
 ```

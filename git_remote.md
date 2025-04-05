@@ -70,7 +70,7 @@ git remote set-url origin git@github.com:user/repo.git
 ```
 ### Key Use Cases
 #### Cloning a Repository:
-When you clone a repo, Git automatically adds a remote named origin:
+- When you clone a repo, Git automatically adds a remote named origin:
 ```bash
 git clone https://github.com/user/repo.git
 ```

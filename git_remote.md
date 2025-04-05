@@ -93,7 +93,7 @@ git remote -v
 ```bash
 git remote add myfork https://github.com/your-username/repo.git
 ```
-#### Fetch changes from a remote:
+#### - Fetch changes from a remote:
 ```bash
 git fetch upstream
 ```

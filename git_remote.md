@@ -37,3 +37,16 @@ git remote rename <old-name> <new-name>
 ```bash
 git remote rename origin upstream
 ```
+#### Remove a Remote:
+- To delete a remote:
+```bash
+git remote remove <name>
+```
+or:
+```bash
+git remote rm <name>
+```
+- Example:
+```bash
+git remote remove origin
+```

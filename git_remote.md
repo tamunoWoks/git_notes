@@ -74,3 +74,8 @@ git remote set-url origin git@github.com:user/repo.git
 ```bash
 git clone https://github.com/user/repo.git
 ```
+#### Working with Multiple Remotes:
+- Add a second remote (e.g., for a fork):
+```bash
+git remote add upstream https://github.com/original/repo.git
+```

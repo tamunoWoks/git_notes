@@ -97,7 +97,7 @@ git remote add myfork https://github.com/your-username/repo.git
 ```bash
 git fetch upstream
 ```
-#### Rename a remote:
+#### - Rename a remote:
 ```bash
 git remote rename myfork fork
 ```

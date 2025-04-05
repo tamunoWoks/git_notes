@@ -59,3 +59,12 @@ git remote show <name>
 ```bash
 git remote show origin
 ```
+#### Update Remote URL:
+- To change the URL of an existing remote:
+```bash
+git remote set-url <name> <new-url>
+```
+- Example (switch from HTTPS to SSH):
+```bash
+git remote set-url origin git@github.com:user/repo.git
+```

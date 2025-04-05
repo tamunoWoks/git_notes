@@ -105,3 +105,7 @@ git remote rename myfork fork
 ```bash
 git remote remove fork
 ```
+### Important Notes
+- The default remote is typically named `origin`.
+- Use `git remote -v` to verify URLs before pushing/fetching.
+- Remote names are arbitrary (e.g., `upstream`, `prod`, `backup`).
